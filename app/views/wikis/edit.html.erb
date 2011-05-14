@@ -1,0 +1,11 @@
+<h1>Editing wiki</h1>
+
+<form action="/wikis/<%= @wiki.title %>" method="POST">
+  <input name="_method" type="hidden" value="put" />
+  <p><input name="wiki[title]" value="<%= @wiki.title %>" /></p>
+  <p><textarea name="wiki[text]"><%= @wiki.text %></textarea></p>
+  <p><input type="submit" /></p>
+</form>
+
+<%= link_to 'Show', @wiki.title %> |
+<%= link_to 'Back', wikis_path %>

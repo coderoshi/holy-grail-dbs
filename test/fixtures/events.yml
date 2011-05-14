@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: MyString
+  starts: 2011-04-24 14:51:55
+  iso: MyString
+
+two:
+  title: MyString
+  starts: 2011-04-24 14:51:55
+  iso: MyString

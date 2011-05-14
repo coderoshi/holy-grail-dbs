@@ -1,0 +1,6 @@
+development:
+  use_utc: true
+  reconnect_time: 3
+  use_object_ids: true
+  host: localhost
+  database: rc2011

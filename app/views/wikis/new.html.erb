@@ -1,0 +1,9 @@
+<h1>New wiki</h1>
+
+<form action="/wikis" method="POST">
+  <p><input name="title" /></p>
+  <p><textarea name="text"></textarea></p>
+  <p><input type="submit" /></p>
+</form>
+
+<%= link_to 'Back', wikis_path %>

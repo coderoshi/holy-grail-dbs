@@ -1,0 +1,9 @@
+development:
+  adapter: mysql2
+  database: rc2011
+  username: root
+
+postgresql_development:
+  adapter: postgresql
+  database: rc2011
+  username: root
